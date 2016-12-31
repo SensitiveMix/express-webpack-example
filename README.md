@@ -1,23 +1,57 @@
-# express-webpack-full-live-reload-example
+```bash
+                                                                                __                              __  
+  ___    _  __    ____    _____  ___    _____   _____        _      __  ___    / /_     ____   ____ _  _____   / /__
+ / _ \  | |/_/   / __ \  / ___/ / _ \  / ___/  / ___/ ______| | /| / / / _ \  / __ \   / __ \ / __ `/ / ___/  / //_/
+/  __/ _>  <    / /_/ / / /    /  __/ (__  )  (__  ) /_____/| |/ |/ / /  __/ / /_/ /  / /_/ // /_/ / / /__   / ,<   
+\___/ /_/|_|   / .___/ /_/     \___/ /____/  /____/         |__/|__/  \___/ /_.___/  / .___/ \__,_/  \___/  /_/|_|  
+              /_/                                                                   /_/                             
+```
 A workflow with full live reload for webpack&express application.
 
 ## Start
 
-1. Clone this repo.
+```bash
+git clone git@github.com:sunNode/express-webpack-example.git
+ ```
 
-2. Install dependencies.
+## Install dependencies.
 
-        npm install
-        npm install supervisor -g
+```bash
+npm install
+```
 
-3. Try these out.
+```bash
+npm install supervisor -g
+```
 
-    * `npm start` to develop with full live reload.
-    * `npm run browsersync` is a alternative for development. It may be faster when modifying the express views
-    (templates) only.
-    * `npm run production` to emit outputs and run the express for production.
-    * `npm run build` if you care about what is hold in memory for development...
+## Usage
+* `npm start` to develop with full live reload.
+* `npm run browsersync` is a alternative for development. It may be faster when modifying the express views
+(templates) only.
+* `npm run production` to emit outputs and run the express for production.
+* `npm run build` if you care about what is hold in memory for development...
 
-## Preview
 
-![example preview](https://raw.githubusercontent.com/kenanpengyou/kenanpengyou.github.io/master/assets/used-images/projects/express-webpack-full-live-reload-example/preview.gif)
+## LISENCE
+MIT License
+
+Copyright (c) 2016 Jack Sun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
