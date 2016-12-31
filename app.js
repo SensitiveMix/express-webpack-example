@@ -12,7 +12,7 @@ app.set('views', path.resolve(__dirname, './server/views'));
 
 // local variables for all views
 app.locals.env = process.env.NODE_ENV || 'dev';
-app.locals.reload = true;
+app.locals.reload = false;
 
 if (isDev) {
 
@@ -49,7 +49,6 @@ if (isDev) {
         console.log('App (dev) is now running on port 3000!');
     });
 } else {
-
     // static assets served by express.static() for production
     app.use(express.static(path.join(__dirname, 'public')));
     require('./server/routes')(app);
