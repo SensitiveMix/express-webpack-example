@@ -14,7 +14,7 @@ A workflow with full live reload for webpack&express application.
 ## Start
 
 ```bash
-git clone git@github.com:sunNode/express-webpack-example.git
+git clone git@github.com:SensitiveMix/express-webpack-example.git
  ```
 
 ## Install dependencies.
