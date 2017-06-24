@@ -13,6 +13,8 @@ A workflow with full live reload for webpack&express application.
 
 ## Start
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SensitiveMix/express-webpack-example.svg)](https://greenkeeper.io/)
+
 ```bash
 git clone git@github.com:SensitiveMix/express-webpack-example.git
  ```
